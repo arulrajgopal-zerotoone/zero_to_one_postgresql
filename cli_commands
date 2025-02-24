@@ -34,3 +34,7 @@ INSERT INTO employees (name, age, department, salary) VALUES
 
 
 SELECT * FROM employees;
+
+
+-- set password
+ALTER USER postgres WITH PASSWORD 'new_secure_password';
