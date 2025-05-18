@@ -14,6 +14,11 @@ sudo -i -u postgres psql
 
 -- list of tables
 \dt
+ or 
+\dp
+
+-- list of stored procedure and functions
+\df+
 
 -- sample table creation and records insertion
 
